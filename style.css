@@ -1,0 +1,331 @@
+.body {
+    padding: 0;
+   margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+.Hero-section {
+    height: 600px;
+    position: relative;
+    width: 90%;
+    margin: 0   5%;
+}
+
+.Hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 30px;
+}
+
+.Logo img {
+    width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: slideInLeft 2s ease-out;
+}
+
+.cart img {
+    width: 30px;
+   position: absolute;
+    right: 0;
+    top: 0;
+    animation: slideInRight 1.5s ease-out;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.cus {
+  position: absolute;
+  right: 7%;
+  top: 1%;
+  display: flex;
+  align-items: center;
+}
+
+.cus img {
+    width: 13px;
+}
+
+.cus a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.Hero-text {
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.Hero-text h1 {
+    font-size: 60px;
+    font-weight: 1000;
+    color: black;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    animation: fadeInUp 2s ease-out;
+}
+
+.b-t {
+}
+
+.hero-button button {
+    padding: 10px 10px;
+    border: 1px solid #0C513F;
+    border-radius: 5px;
+    background-color: #0C513F;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.hero-button img {
+    width: 15px;
+    margin-bottom: -2px;
+}
+
+.mi img {
+    width: 80px;
+    position: absolute;
+    bottom: 30%;
+    right: -2%;
+    animation: bounce 2s infinite;
+}
+
+.bik img {
+    width: 50px;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    animation: slideInUp 1.5s ease-out;
+}
+
+.customer {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    width: 90%;
+    margin: 0 5%;
+    height: 500px;
+}
+.cus-v img {
+    width: 60%;
+    margin-top: 30px;
+    animation: slideInUp 1.5s ease-out;
+}
+.cus-text p {
+    font-size: 12px;
+    margin-top: -10px;
+    animation: slideInUp 1.5s ease-out;
+}
+
+.a-p img {
+    width: 50%;
+    animation: slideInUp 1.5s ease-out;
+}
+
+.first-div img {
+    margin-left: 20px;
+    width: 50%;
+    animation: slideInUp 1.5s ease-out;
+}
+
+.join img {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-self: center;
+    align-content: center;
+    margin-top: 200px;
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.explore img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.resturant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 5%;
+}
+.resturant img {
+    width: 100%;
+    margin-top: -30px;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 5%;
+}
+.review img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.storie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 5%;
+}
+
+
+.storie img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.FAQ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 5%;
+}
+
+
+.FAQ img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.footer img {
+    width: 100%;
+    margin-top: -100px;
+}
+
+.join img,
+.explore img,
+.resturant img,
+.review img,
+.storie img,
+.FAQ img,
+.footer img {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s ease forwards;
+}
+
+.join img {
+    animation-delay: 0.3s;
+}
+
+.explore img {
+    animation-delay: 0.6s;
+}
+
+.resturant img {
+    animation-delay: 0.9s;
+}
+
+.review img {
+    animation-delay: 1.2s;
+}
+
+.storie img {
+    animation-delay: 1.5s;
+}
+
+.FAQ img {
+    animation-delay: 1.8s;
+}
+
+.footer img {
+    animation-delay: 2.1s;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
